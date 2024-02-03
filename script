@@ -1,0 +1,36 @@
+function gCgAi(promptText,mxtks) {
+  // mxtks - max tokens not used
+  var apiKey = '<API Key>';
+  var apiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=' + apiKey;
+
+  // Create the request data with the correct structure
+  var requestData = {
+    contents: [
+      {
+        parts: [
+          {
+            text: promptText
+          }
+        ]
+      }
+    ]
+  };
+
+  // Set up options for the HTTP request
+  var options = {
+    method: 'post',
+    contentType: 'application/json',
+    payload: JSON.stringify(requestData),
+    muteHttpExceptions: true
+  };
+
+  // Make the API request
+  var response = UrlFetchApp.fetch(apiUrl, options);
+  var responseData = JSON.parse(response.getContentText());
+
+  // Log or use the response data as needed
+  //Logger.log(responseData.candidates[0.0].content.parts[0].text);
+
+  // Return the generated text
+  return responseData.candidates[0.0].content.parts[0].text;
+}
