@@ -11,7 +11,7 @@ Where <prompt> is the question text you want to ask Gemini AI. For this to work 
 - [Google Apps Scripting](https://www.google.com/script/start/) - Create automations and web services
 - [Google AI](https://ai.google.dev/tutorials/ai-studio_quickstart) - Access AI web service API
 
-## Example output:
+### Example output:
 
 `gCgAi('What is bigfoot?',null);`
 
