@@ -28,3 +28,12 @@ Output:
 >The scientific community generally rejects the existence of Bigfoot. They argue that there is no fossil record of Bigfoot, and that the sightings that have been reported are either hoaxes or misidentifications of other animals. They also point out that there is no reason to believe that a large, hairy creature could survive in the forests of North America without being detected. 
 
 >Despite the lack of scientific evidence, Bigfoot remains a popular figure in American culture. It has been featured in numerous books, movies, and television shows. It is also the subject of a large number of online forums and discussion groups.
+
+### Useability
+
+|Function:|Time involved|
+|---|---|
+|Signup|🟩 Simple|
+|API key setup|🟩 Created on opening account|
+|Available code examples|🟨 Using curl examples with small changes|
+|Any issues|🟩 Works as advertised with no issues|
