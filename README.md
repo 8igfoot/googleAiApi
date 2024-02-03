@@ -37,3 +37,4 @@ Output:
 |API key setup|🟩 Created on opening account|
 |Available code examples|🟨 Using curl examples with small changes|
 |Any issues|🟩 Works as advertised with no issues|
+|Execution time|🟨 4509.0 milliseconds|
